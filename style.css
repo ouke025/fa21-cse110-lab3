@@ -1,0 +1,117 @@
+/*
+    CSS file for index.html
+*/
+
+body { 
+    background-color: cornsilk; /* apply background styles to your elements */
+}
+
+h1 {
+    color: rgb(26, 86, 165); /* red, green, blue, alpha values */
+    text-align: center;
+    font-family: 'Ephesis', cursive;
+}
+
+h2 {
+    color: hsl(219, 79%, 66%); /* hue, saturation, lightness, alpha values */
+    margin: auto;
+}
+
+h3 {
+    color: #00BFFF; 
+    padding-left: 0.2cm;
+}
+
+header {
+    color: firebrick; 
+    margin-top: 1vh;
+    position: sticky;
+    top: 20px;
+}
+
+footer {
+    color: firebrick; 
+    margin: 1vw 5mm;
+}
+
+p {
+    padding: .5em 1em;
+    text-decoration: underline;
+    text-align: start;
+    display: block;
+}
+
+p:hover {
+    color:rgb(26, 86, 165);
+}
+
+ul {
+    border: 2px dashed rebeccapurple;
+}
+
+span {
+    display: inline;
+    background-color: cyan;
+}
+
+ol {
+    display: block;
+}
+
+audio {
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+    border-radius: 20pt;
+    height: 1cm;
+    width: 10cm;
+    position: static;
+}
+
+img {
+    max-width: 4cm;
+    max-height: 4cm;
+}
+
+a:active {
+    color: red
+}
+
+@media (any-hover: hover) {
+    a:hover {
+      background: yellow;
+    }
+  }
+
+.flex_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.grid_container {
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: repeat(2, 300pt [col-start]);
+    grid-template-rows: repeat(2, auto [row-start]);
+}
+
+.box {
+    background-color: cadetblue;
+    color: cornsilk;
+    border-radius: 20px;
+    padding: 20px;
+  }
+
+.a {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.b {
+    grid-column: 2;
+    grid-row: 1;
+}

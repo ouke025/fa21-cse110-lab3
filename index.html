@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Group X Meeting Minutes</title>
+        <title>Group 32 Meeting Minutes</title>
         <meta charset="UTF-8">
         <link rel="icon" href="110.png" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header>CSE 110 Lab 2</header>
+        <header>CSE 110 Lab 3</header>
 
         <nav class="menu">
             <ul>
@@ -17,9 +21,10 @@
         </nav>
 
         <main>
-            <h1>Group X Meeting Minutes</h1>
-            <img src="110.png" alt="CSE 110 icon">
-            <hr> 
+            <div class="flex_container">
+                <img src="110.png" alt="CSE 110 icon">  
+                <h1>Group 32 Meeting Minutes</h1>
+            </div>
             <section>
                 <h3> Location: </h3> <i> Geisel Library </i>
                 <h3> Date: </h3> October 1, 2021
@@ -38,12 +43,26 @@
             </section>
 
             <section>
-                <h3>Agenda</h3>
-                <p> Next week, we need to finish the following taks: </p>
-                <ol>
-                    <li> Finish Lab 2 by <em>Sunday, 10/03/2021</em>. </li>  
-                    <li> Brainstorm project topics. </li>   
-                </ol>>
+                <h2>Agenda</h2>
+                <br>
+                <div class='grid_container'>
+                    <div class='box a'>
+                        <p><span>Leftovers</span> from last week:</p>
+                        <ol>
+                            <li> Leftover 1 </li>  
+                            <li> Leftover 2 </li>   
+                        </ol>>
+                    </div>  
+
+                    <div class='box b'>
+                        <p>Plan for this week:</p>
+                        <ol>
+                            <li> Finish Lab 3 by <em>Friday, 10/08</em>. </li>  
+                            <li> Brainstorm project topics. </li>   
+                        </ol>>
+                    </div>  
+                </div>
+                <br>
             </section>
 
             <section>
@@ -51,12 +70,11 @@
 
                 <h3>Audio:</h3>
                 <audio controls src="video.mp4"></audio>
-
                 <h3>Video:</h3>
                 <video width="320" height="240" controls>
                     <source src="video.mp4" type="video/mp4">
                 </video>
-                
+
                 <details>
                     <summary>Acknowledgement</summary>
                     These recordings are retrieved from <a href=https://www.learningcontainer.com/mp4-sample-video-files-download/#Sample_MP4_File>this</a> page.
@@ -141,6 +159,7 @@
                     </fieldset>
                 </form>
             </section>
+
         </main>
         <footer>October 1, 2021</footer>
     </body>
